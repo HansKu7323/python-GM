@@ -16,7 +16,7 @@ for i in range(5):
             else:
                 print("guess smaller")
             break
-        except Exception as e:
+        except:
             print("Pls key in number")
 
     if bingo:
